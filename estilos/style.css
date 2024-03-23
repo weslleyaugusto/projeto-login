@@ -31,6 +31,8 @@ main{
     border-radius: 20px;
    overflow: hidden;
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+   transition: 1s;
+   transition-timing-function: ease;
 }
 div{
     display: block;
@@ -38,7 +40,7 @@ div{
 #imagem{
     background: #5f2c82 url(../imagens/patern.jpg) no-repeat;
     background-size: cover;
-    background-position: left bottom;
+    background-position: right bottom;
     height: 200px;
 }
 #formulario{
