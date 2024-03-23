@@ -49,11 +49,3 @@ div{
 #formulario > h1{
     text-align: center;
 }
-@media screen and (orientation:landscape) {
-    #imagem{
-        float: left;
-    }
-    #formulario{
-        float: right;
-    }
-}
