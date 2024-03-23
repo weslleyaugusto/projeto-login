@@ -26,7 +26,7 @@ main{
     top: 50%;
     transform: translate(-50%,-50%);
     background-color: white;
-    width: 250px;
+    width: 256px;
     height: 500px;
     border-radius: 20px;
    overflow: hidden;
@@ -48,4 +48,24 @@ div{
 }
 #formulario > h1{
     text-align: center;
+    padding-bottom: 10px;
+}
+#formulario > p{
+    font-size: 0.8em;
+}.campo{
+    background-color: #5f2c82;
+}
+span{
+    
+}
+.campo > input{
+    width: 85%;
+}
+#iemail, #isenha{
+    background-color: #94cfc9;
+    padding: 7px;
+    border-radius: 10px;
+}
+#iemail{
+    margin-top: 3px;
 }
