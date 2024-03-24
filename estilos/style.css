@@ -31,7 +31,7 @@ main{
     border-radius: 20px;
    overflow: hidden;
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
-   transition: 1s;
+   
    transition-timing-function: ease;
 }
 div{
@@ -52,20 +52,45 @@ div{
 }
 #formulario > p{
     font-size: 0.8em;
-}.campo{
-    background-color: #5f2c82;
 }
-span{
-    
+.campo{
+    background-color:#5f2c82 ;
+    border-radius: 5px;
+    margin: 10px;
 }
 .campo > input{
-    width: 85%;
+    width: 80%;
+    margin-bottom: 3px;
+    height: 30px;
 }
-#iemail, #isenha{
-    background-color: #94cfc9;
-    padding: 7px;
-    border-radius: 10px;
+.campo span{
+    padding: 0px 5px 0px 0px;
 }
-#iemail{
-    margin-top: 3px;
+input[type="submit"]{
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #4A999B;
+    font-size: 1em;
+    border: none;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color:rgb(34, 130, 127) ;
+}
+.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    height: 40px;
+    width: 100%;
+    background-color: #4A999B;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+}
+.botao:hover{
+    background-color: rgb(34, 130, 127);
 }
