@@ -24,15 +24,15 @@ main{
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
     background-color: white;
     width: 256px;
-    height: 500px;
+    height: 510px;
     border-radius: 20px;
-   overflow: hidden;
-   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
-   
-   transition-timing-function: ease;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+   transition: .8s;
+    transition-timing-function: ease;
+    transform: translate(-50%,-50%);
 }
 div{
     display: block;
@@ -59,12 +59,22 @@ div{
     margin: 10px;
 }
 .campo > input{
-    width: 80%;
-    margin-bottom: 3px;
+    width: 79%;
+    margin-bottom: 7px;
     height: 30px;
+    background-color: #c3f5f8;
+    border-radius: 5px;
+    border: none;
+}
+.campo input:focus-within{
+    background-color: white;
 }
 .campo span{
     padding: 0px 5px 0px 0px;
+    font-family: 700;
+    padding: 5px;
+    width: 30px;
+    color: rgb(235, 230, 230);
 }
 input[type="submit"]{
     display: block;
