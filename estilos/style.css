@@ -104,21 +104,3 @@ input[type="submit"]:hover{
 .botao:hover{
     background-color: rgb(34, 130, 127);
 }
-@media screen and (orientation: landscape) {
-    ::-webkit-scrollbar{
-        display: none;
-    }
-    #login{
-        width: 450px;
-        height: 323px;
-    }
-    #imagem{
-        float: left;
-        width: 30%;
-        height: 100%;
-    }
-    #formulario{
-        float: right;
-        width: 70%;
-    }
-}
